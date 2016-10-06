@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>JS/Expert Example</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="http://www.jsexpert.net/">JS/Expert</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+
+				<ul class="nav navbar-nav hidden-sm hidden-md">
+					<li class="active"><a href="#">Пример того, что вы научитесь делать</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="http://www.jsexpert.net/#head">Главная</a></li>
+					<li><a href="http://www.jsexpert.net/#basic">Как стать программистом</a></li>
+					<li><a href="http://www.jsexpert.net/#js">Понятный JS</a></li>
+					<li><a href="http://www.jsexpert.net/#angular">Продвинутый JS</a></li>
+					<li><a href="http://www.jsexpert.net/articles/">База знаний</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="site-wrapper">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-12 col-md-12">
+					<h3>Галерея</h3>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-12 col-md-12 text-center">
+					<button class="btn btn-default" type="button" id="add" data-toggle="tooltip" data-placement="left" title="Добавить одно изображение">Добавить изображение</button>
+					<p class="count-text">Добавленно изображений: <span id="count">0</span></p>
+				</div>
+			</div>
+
+			<div class="row" id="result"></div>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/main_es6.js"></script>
+	<script>alert("Msg")</script>
+</body>
+</html>
